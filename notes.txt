@@ -18,4 +18,7 @@ for ex.
         we can not write like that: var age:Int = null (compile error - Null can not be a value of a non-null type Int)
         we should write like that: var age:Int? = null
 -----------------------------------
-for test
+
+ageText.text.toString.equals("") is same with ageText.text.toString == ""
+-----------------------------------
+
