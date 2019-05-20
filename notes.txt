@@ -1,0 +1,21 @@
+KOTLIN
+-------
+
+var => creates variable that is changable
+val => creates constants that is immutable
+
+val age = 23        creates Integer
+val age = 23.0      creates Double
+val name = "James"  creates String
+-----------------------------------
+val age : Integer = 23
+val age : Double = 23.0
+val age : String = "James"
+-----------------------------------
+
+we cannot assign null into variable which cannot be null
+for ex.
+        we can not write like that: var age:Int = null (compile error - Null can not be a value of a non-null type Int)
+        we should write like that: var age:Int? = null
+-----------------------------------
+
